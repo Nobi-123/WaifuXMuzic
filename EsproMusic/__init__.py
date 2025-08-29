@@ -37,15 +37,6 @@ git()
 app = Loy()             # Your main bot client
 userbot = Userbot()     # Your userbot
 
-from EsproMusic.core.platforms import *
-
-Apple = AppleAPI()
-Carbon = CarbonAPI()
-SoundCloud = SoundAPI()
-Spotify = SpotifyAPI()
-Resso = RessoAPI()
-Telegram = TeleAPI()
-YouTube = YouTubeAPI()
 
 # --------------------------- PLOG FUNCTION -------------------------------
 async def PLOG(text: str):
