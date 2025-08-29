@@ -1,13 +1,9 @@
 # ------------------------------ IMPORTS ---------------------------------
 import os
-from telegram.ext import Application
 from pyrogram import Client, filters as f
-from pyrogram.types import x
+from pyrogram.types import *
 
-application = Application.builder().token(TOKEN).build()
-
-x = x
-
+# -------------------------- GLOBAL VARIABLES ----------------------------
 locks = {}
 message_counters = {}
 spam_counters = {}
@@ -38,8 +34,8 @@ from EsproMusic.core.userbot import Userbot
 dirr()
 git()
 
-app = Loy()
-userbot = Userbot()
+app = Loy()             # Your main bot client
+userbot = Userbot()     # Your userbot
 
 from EsproMusic.core.platforms import *
 
