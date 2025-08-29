@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","22657083"))
+API_HASH = getenv("API_HASH","d6186691704bd901bdab275ceaab88f3")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -28,11 +28,11 @@ DOWNLOADS_DIR = "downloads"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
-GLOG = int(getenv("GLOG", None))
+LOGGER_ID = int(getenv("LOGGER_ID","-1003054036422"))
+GLOG = int(getenv("GLOG","waifu_for_u"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7653820603))
+OWNER_ID = int(getenv("OWNER_ID","6395780961"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,15 +42,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ruchi5134/Ruchi123",
+    "https://github.com/Nobi-123/WaifuXMuzic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/alpna_updates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/alpna_updates")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/waifu_for_u")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/waifu_4_u")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
