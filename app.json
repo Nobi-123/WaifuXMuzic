@@ -1,6 +1,6 @@
 {
-    "name": "Music X Waifu",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls. and A waifu bot too",
+    "name": "IᴠᴀɴxNᴏʙɪ Mᴜsɪᴄ",
+    "description": "I Just Do Some Development and fork this repo u can change accouring to you",
     "logo": "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg",
     "keywords": [
     "python3",
@@ -14,27 +14,27 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "22657083",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "d6186691704bd901bdab275ceaab88f3",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "8308863644:AAGqjXo-7J8Yv8FJOgHHsk0qkwDV-Xnl2vA",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "value": "mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "6395780961",
         "required": true
       },
       "STRING_SESSION": {
@@ -44,22 +44,22 @@
       },
       "SUPPORT_CHANNEL": {
         "description": "CHANNEL",
-        "value": "",
+        "value": "https://t.me/waifu_4_u",
         "required": true
       },
       "SUPPORT_CHAT": {
         "description": "GROUP",
-        "value": "",
+        "value": "https://t.me/waifu_for_u",
         "required": true
       },
       "GLOG": {
         "description": "bsdk GLOG dal",
-        "value": "",
+        "value": "waifu_for_u",
         "required": true
       },
       "LOGGER_ID": {
         "description": "Private Group Bana Kar Uska Id Dalo",
-        "value": "",
+        "value": "-1003054036422",
         "required": true
       }
     },
