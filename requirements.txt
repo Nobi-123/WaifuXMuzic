@@ -12,7 +12,6 @@ motor
 pillow
 psutil
 py-tgcalls==0.9.7
-python-telegram-bot==20.6
 pykeyboard
 kurigram
 python-dotenv
