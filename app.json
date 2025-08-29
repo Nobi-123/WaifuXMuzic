@@ -64,7 +64,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Your Heroku API Key",
-      "value": "your_heroku_api_key_here",
+      "value": "sikiox",
       "required": true
     },
     "HEROKU_APP_NAME": {
